@@ -8,8 +8,8 @@
     <style>
         /* Анімація для фото */
         .photo-divider {
-            width: 550px; /* Розмір фото */
-            height: 350px;
+            width: 150px; /* Розмір фото */
+            height: 150px;
             border-radius: 20px; /* Заокруглені кути */
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Тінь для фото */
             opacity: 0;
@@ -43,7 +43,7 @@
             flex-direction: column;
         }
 
-        video {
+        iframe {
             border-radius: 15px; /* Заокруглення відео */
         }
     </style>
@@ -78,21 +78,13 @@
         <section class="video animated fadeIn">
             <h2>🎥 Відосіки 🎥</h2>
             <div class="video-container">
-                <!-- Використовуємо правильні URL для відео на GitHub Pages -->
-                <video width="320" height="240" controls>
-                    <source src="videos/video1.mp4" type="video/mp4">
-                    <source src="videos/video1.ogg" type="video/ogg">
-                    Your browser does not support the video tag.
-                </video>
+                <!-- Використовуємо Vimeo для вбудовування відео -->
+                <iframe src="https://player.vimeo.com/video/1056461877?h=88387d58bb" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
                 <!-- Фото між відео -->
                 <img class="photo-divider" src="images/photo3.jpg" alt="Фото 3">
 
-                <video width="320" height="240" controls>
-                    <source src="videos/video2.mp4" type="video/mp4">
-                    <source src="videos/video2.ogg" type="video/ogg">
-                    Your browser does not support the video tag.
-                </video>
+                <iframe src="https://player.vimeo.com/video/1056461703?h=d3f430aad2" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
             </div>
         </section>
 
