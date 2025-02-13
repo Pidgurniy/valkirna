@@ -27,6 +27,18 @@
                 transform: translateY(0);
             }
         }
+
+        /* Стилі для відео */
+        .video-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        video {
+            width: 100%;
+            max-width: 640px;
+            margin: 10px 0;
+        }
     </style>
 </head>
 <body>
@@ -36,6 +48,7 @@
     <div class="photo-gallery left animated fadeInUp">
         <img src="images/photo1.jpg" alt="Фото 1">
         <img src="images/photo2.jpg" alt="Фото 2">
+        <img src="images/photo3.jpg" alt="Фото 3">
         <img src="images/photo4.jpg" alt="Фото 4">
         <img src="images/photo5.jpg" alt="Фото 5">
         <img src="images/photo6.jpg" alt="Фото 6">
@@ -58,20 +71,21 @@
         <section class="video animated fadeIn">
             <h2>🎥 Відосіки 🎥</h2>
             <div class="video-container">
+                <!-- Відео 1 -->
                 <video controls autoplay muted loop>
-                    <source src="videos/video1.mp4" type="video/mp4">
+                    <source src="https://pidgurniy.github.io/valkirna/videos/video1.mp4" type="video/mp4">
                     Ваш браузер не підтримує відтворення відео.
                 </video>
         
                 <img class="photo-divider animated fadeIn" src="images/photo3.jpg" alt="Фото 3">
         
+                <!-- Відео 2 -->
                 <video controls autoplay muted loop>
-                    <source src="videos/video2.mp4" type="video/mp4">
+                    <source src="https://pidgurniy.github.io/valkirna/videos/video2.mp4" type="video/mp4">
                     Ваш браузер не підтримує відтворення відео.
                 </video>
             </div>
         </section>
-        
 
         <footer class="animated fadeInUp">
             <p>💌 Від усього серця бажаю тобі щастя, кохання та здійснення мрій! 💌</p>
